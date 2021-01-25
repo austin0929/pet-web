@@ -1,0 +1,72 @@
+.banner{
+    position: relative;
+}
+.banner-img{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/petpet-week8/index-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 736px;
+}
+.arrow-down{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    right: 17%;
+    top: 80%;
+}
+@include media-breakpoint-down(md) {
+    .banner-img{
+        min-height: 288px;
+        width: 210px;
+    }
+  .h1{
+      font-size: 32px;
+      text-align: center;
+  }
+  p{
+      text-align: center;
+  }
+    .arrow-down{
+         right: 5%;
+          top: 85%;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .banner-img{
+        min-height: 352px;
+        width: 100%;
+    }
+    .h1{
+        font-size: 28px;
+    }
+    .arrow-down{
+        display: none;
+    }
+    .navbar{
+    position: relative;
+}
+.navbar-Custom{
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    left: 0;
+        }
+        .border-top-custom{
+            border-top: 1px solid lightgray;
+        }
+        .border-bottom-custom{
+            border-bottom: 1px solid lightgray;
+        }
+}
+.footer{
+    a{
+        text-decoration: none;
+    }
+    img{
+        margin-top: -15px;
+    }
+}
+

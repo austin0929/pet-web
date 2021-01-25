@@ -1,0 +1,49 @@
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+a{
+    display: block;
+}
+ul,ol{
+    padding-left: 0;
+    list-style: none;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+.container{
+    padding-right: 0;
+    padding-left: 0;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+}
+p{
+    font-family: 'Roboto' !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto' !important;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,.h7{
+     font-family: 'Roboto' !important;
+}
+a{
+     font-family: 'Roboto' !important;
+}
+.h7{
+    font-size: 14px;
+}
+.active{
+    color: black;
+    font-weight: bold;
+}
+.h5{
+    font-size: 20px;
+}
+@include media-breakpoint-down(sm) {
+    .h5{
+       font-size: 14px !important;
+    }
+}

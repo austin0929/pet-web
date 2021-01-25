@@ -1,0 +1,83 @@
+.reserve{
+    a{
+        text-decoration: none;
+    }
+}
+.reserve-img2{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/petpet-week8/index-6.jpeg);
+    min-height: 350px;
+}
+.reserve-img1{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/petpet-week8/index-5.jpeg);
+    min-height: 350px;
+}
+.reserve-img3{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/petpet-week8/index-7.jpeg);
+    min-height: 170px;
+}
+.reserve-img4{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/petpet-week8/index-8.jpeg);
+    min-height: 170px;
+}
+.reserve-img5{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/petpet-week8/index-3.jpeg);
+    min-height: 350px;
+}
+.reserve-bg-cover{
+    background-color: rgba(0 ,0, 0, 0.4);
+    background-size: cover;
+    padding: 163px 0;
+    width: 100%;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+.reserve-sm-bg-cover{
+      background-color: rgba(0 ,0, 0, 0.4);
+    background-size: cover;
+    padding: 72.5px 0;
+    width: 100%;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.reserve-items1{
+    width: 31%;
+}
+.reserve-items2{
+    width: 26%;
+}
+.reserve-items3{
+    width: 23%;
+}
+.reserve-items5{
+    width: 20%;
+}
+@include media-breakpoint-down(md) {
+    .reserve-img1,.reserve-img2,.reserve-img5{
+        min-height: 210px;
+        width: 100%;
+    }
+     .reserve-img3,.reserve-img4{
+       min-height: 103px;   
+     }
+    .reserve-bg-cover{
+        padding: 93px 0;
+    }
+    .reserve-sm-bg-cover{
+        padding: 37px 0;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+       .reserve-img1,.reserve-img2,.reserve-img5,.reserve-img3,.reserve-img-4,.reserve-img5{
+           min-height: 132px;
+       }
+         .reserve-bg-cover,.reserve-sm-bg-cover{
+             padding: 54px 0;
+        }
+        .reserve-items5,.reserve-items1,.reserve-items2,.reserve-items3,.reserve-items4{
+            width: 100%;
+        }
+}

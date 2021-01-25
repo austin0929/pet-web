@@ -1,0 +1,8 @@
+.Social-btn{
+    width: 50%;
+}
+@include media-breakpoint-down(md) {
+    .Social-btn{
+    width: 100%;
+}
+}

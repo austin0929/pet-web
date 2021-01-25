@@ -1,0 +1,20 @@
+.card-img1{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/petpet-week8/homestay-5.jpeg);
+    min-height: 128px;
+}
+.card a{
+    text-decoration: none;
+}
+
+@include media-breakpoint-down(sm) {
+    .sm-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+  }
+}
+}

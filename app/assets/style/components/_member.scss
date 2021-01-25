@@ -1,0 +1,31 @@
+.member-text1{
+         width: 22%;
+        }
+.member-title{
+    line-height: 48px;
+}
+.member-h2{
+    font-size: 32px;
+}
+.member-btn{
+    width: 50%;
+}
+@include media-breakpoint-down(md) {
+    .member-h2{
+    font-size: 24px;
+}
+.member-text1{
+         width: 30%;
+        }
+        .member-title{
+    line-height: 36px;
+}
+.member-btn{
+    width: 100%;
+}
+}
+@include media-breakpoint-down(sm) {
+    .member-text1{
+         width: 20%;
+        }
+}

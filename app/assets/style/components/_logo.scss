@@ -1,0 +1,13 @@
+.logo{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/petpet-week8/logo.svg);
+    width: 120px;
+    height: 55px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@include media-breakpoint-down(md) {
+   .logo{
+        margin-left: 6rem;
+   }
+}
